@@ -1,0 +1,83 @@
+/* pages/detail/childCpns/w-shopInfo/w-shopInfo.wxss */
+.shop-info {
+  padding: 20rpx 0 0 10rpx;
+  border-bottom: 10rpx solid #eee;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header image {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  border: 4rpx solid #eee;
+  margin-right: 20rpx;
+}
+
+.header text {
+  font-size: 32rpx;
+}
+
+.body {
+  display: flex;
+}
+
+.body-left {
+  display: flex;
+  flex: 1;
+  border-right: 2rpx solid #eee;
+}
+
+.body-left .left-item {
+  flex: 1;
+  margin: 20rpx 0;
+  text-align: center;
+}
+
+.left-item .num {
+  font-size: 34rpx;
+  margin-bottom: 10rpx;
+}
+
+.left-item .text {
+  font-size: 28rpx;
+}
+
+.body-right {
+  flex: 1;
+  font-size: 28rpx;
+}
+
+.right-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30rpx;
+}
+
+.score {
+  margin: 0 20rpx;
+  text-align: center;
+}
+
+.more {
+  color: #ff5777;
+}
+
+.less {
+  color: green;
+}
+
+.footer {
+  margin: 40rpx 0;
+  text-align: center;
+}
+
+.footer text {
+  padding: 20rpx 60rpx;
+  border-radius: 10rpx;
+  background-color: #eee;
+  font-size: 32rpx;
+}

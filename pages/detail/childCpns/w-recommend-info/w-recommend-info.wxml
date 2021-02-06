@@ -1,0 +1,4 @@
+<!--pages/detail/childCpns/w-recommend-info/w-recommend-info.wxml-->
+<view class="recommend-info">
+<w-goods goods="{{recommendInfo}}"></w-goods>
+</view>

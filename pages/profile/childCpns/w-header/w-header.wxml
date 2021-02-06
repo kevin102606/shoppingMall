@@ -1,0 +1,14 @@
+<!--pages/profile/childCpns/w-header/w-header.wxml-->
+ <view class="header">
+    <view class="avatar">
+      <image src="/assets/image/profile/avatar.png"></image>
+    </view>
+    <view class="info">
+      <view class="register">登录/注册</view>
+      <view>
+        <image class="phone" src="/assets/image/profile/phone.png"></image>
+        <text>暂无绑定手机号</text>
+      </view>
+    </view>
+    <image class="arrow-right" src="/assets/image/common/arrow-right.png"></image>
+  </view>

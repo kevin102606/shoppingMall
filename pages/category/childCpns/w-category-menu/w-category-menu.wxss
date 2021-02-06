@@ -1,0 +1,19 @@
+/* pages/category/childCpns/category-menu/category-menu.wxss */
+.category-menu {
+  height: 100%;
+  background-color: #f6f6f6;
+  font-size: 30rpx;
+}
+
+.menu-item {
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+}
+
+.active {
+  margin-left: 4rpx;
+  background-color: #fff;
+  color: #ff5777;
+  font-weight: 700;
+}

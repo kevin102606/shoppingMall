@@ -1,0 +1,14 @@
+<!--pages/home/home.wxml-->
+<view class="home">
+  <view hidden="{{!isShowTabControl}}">
+    <w-tab-control titles="{{titles}}" bind:titleclick="titleClick" class="tab-control-outer"></w-tab-control>
+  </view>
+  <scroll-view class="content" scroll-y bindscrolltolower="loadMore" scroll-top="{{topPosition}}" scroll-with-animation bindscroll="scrollPosition">
+    <w-swiper images="{{banners}}"></w-swiper>
+    <w-recommend recommends="{{recommends}}" bind:imageload="imageLoad"></w-recommend>
+    <w-feature></w-feature>
+    <w-tab-control titles="{{titles}}" bind:titleclick="titleClick" class="tab-control-inner"></w-tab-control>
+    <w-goods goods="{{goods[currentType].list}}"></w-goods>
+    <w-back-top bindtap="backTop" wx:if="{{isShowBackTop}}"></w-back-top>
+  </scroll-view>
+</view>

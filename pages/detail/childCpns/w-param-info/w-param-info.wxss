@@ -1,0 +1,29 @@
+/* pages/detail/childCpns/w-param-info/w-param-info.wxss */
+
+.param-info {
+  padding: 0 40rpx 40rpx;
+  border-bottom: 10rpx solid #eee;
+  font-size: 30rpx;
+}
+
+.row {
+  display: flex;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 2rpx solid #eee;
+}
+
+.size-row view {
+  flex: 1;
+}
+
+.info-row .key {
+  width: 170rpx;
+}
+
+.info-row .value {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #ff5777;
+}

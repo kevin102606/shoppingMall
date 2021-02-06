@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "w-cart-list-item": "./childCpns/w-cart-list-item/w-cart-list-item",
+    "w-bottom-bar": "./childCpns/w-bottom-bar/w-bottom-bar"
+  }
+}

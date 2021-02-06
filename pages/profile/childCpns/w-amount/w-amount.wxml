@@ -1,0 +1,21 @@
+<!--pages/profile/childCpns/w-amount/w-amount.wxml-->
+ <view class="amount">
+    <view class="amount-item">
+      <view>
+        <text class="number">0.00</text>元
+      </view>
+      <view class="text">我的余额</view>
+    </view>
+    <view class="amount-item">
+      <view>
+        <text class="number">0</text>个
+      </view>
+      <view class="text">我的优惠</view>
+    </view>
+    <view class="amount-item">
+      <view>
+        <text class="number">0</text>分
+      </view>
+      <view class="text">我的积分</view>
+    </view>
+  </view>

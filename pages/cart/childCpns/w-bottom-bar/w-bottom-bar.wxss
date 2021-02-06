@@ -1,0 +1,36 @@
+/* pages/cart/childCpns/w-bottom-bar/w-bottom-bar.wxss */
+
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  height: 80rpx;
+  background-color: #eee;
+  font-size: 30rpx;
+}
+
+.select-all {
+  display: flex;
+  align-items: center;
+}
+
+.select-all .icon {
+  margin: 8rpx 10rpx 0 20rpx;
+}
+
+.total-price {
+  flex: 1;
+  margin-left: 40rpx;
+}
+
+.calc {
+  height: 80rpx;
+  padding: 0 30rpx;
+  background-color: #ff5777;
+  line-height: 80rpx;
+  color: #fff;
+  font-size: 30rpx;
+}

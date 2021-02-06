@@ -1,0 +1,4 @@
+/* pages/detail/childCpns/w-recommend-info/w-recommend-info.wxss */
+.recommend-info {
+  margin-top: 20rpx;
+}

@@ -1,0 +1,46 @@
+/* pages/detail/childCpns/w-detailInfo/w-detailInfo.wxss */
+
+.detail-info {
+  border-bottom: 10rpx solid #eee;
+}
+
+.detail-header {
+  padding: 20rpx;
+}
+
+.detail-header .desc {
+  font-size: 30rpx;
+  margin: 20rpx 0;
+}
+
+.left-header, .right-header {
+  width: 10rpx;
+  height: 10rpx;
+  background-color: #000;
+}
+
+.right-header {
+  float: right;
+}
+
+.left-header::after, .right-header::before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 8rpx;
+  border-bottom: 4rpx solid #000;
+}
+
+.right-header::before {
+  float: right;
+}
+
+.detail-key {
+  font-size: 34rpx;
+  padding-left: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.detail-image image {
+  width: 100%;
+}

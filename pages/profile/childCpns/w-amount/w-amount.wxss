@@ -1,0 +1,24 @@
+/* pages/profile/childCpns/w-amount/w-amount.wxss */
+.amount {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+  text-align: center;
+  font-size: 28rpx;
+}
+
+.amount .amount-item {
+  width: 33%;
+  padding: 50rpx 0;
+  background-color: #fff;
+}
+
+.amount-item .number {
+  color: #ff5777;
+  font-size: 38rpx;
+  font-weight: 700;
+}
+
+.amount-item .text {
+  margin-top: 6rpx;
+}

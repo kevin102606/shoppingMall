@@ -1,0 +1,37 @@
+/* pages/detail/childCpns/w-bottom-bar/w-bottom-bar.wxss */
+.bottom-bar {
+  display: flex;
+  height: 120rpx;
+  box-shadow: 0 -2rpx 2rpx rgba(0, 0, 0, .1);
+  font-size: 30rpx;
+}
+
+.bottom-left, .bottom-right {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  text-align: center;
+}
+
+.left-item {
+  flex: 1;
+}
+
+.left-item image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.right-item {
+  flex: 1;
+  line-height: 120rpx;
+}
+
+ .cart {
+  background-color: yellow;
+}
+
+ .buy {
+  background-color: #ff055777;
+  color: #fff;
+}

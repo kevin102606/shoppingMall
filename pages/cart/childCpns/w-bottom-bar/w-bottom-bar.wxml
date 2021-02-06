@@ -1,0 +1,9 @@
+<!--pages/cart/childCpns/w-bottom-bar/w-bottom-bar.wxml-->
+<view class="bottom-bar">
+  <view class="select-all">
+    <w-check-icon class="icon" isChecked="{{isSelectAll}}" bindtap="selectAllClick"></w-check-icon>
+    <view>全选</view>
+  </view>
+  <view class="total-price">总计:￥{{price}}</view>
+  <view class="calc">去计算({{count}})</view>
+</view>

@@ -1,0 +1,40 @@
+/* pages/profile/childCpns/w-header/w-header.wxss */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200rpx;
+  padding: 0 20rpx;
+  background-color: #ff5777;
+}
+
+.header .avatar image {
+  width: 140rpx;
+  height: 140rpx;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.header .info {
+  flex: 1;
+  margin-left: 20rpx;
+  color: #fff;
+  font-size: 28rpx;
+}
+
+.info .register {
+  font-size: 32rpx;
+}
+
+.info .phone {
+  position: relative;
+  top: 10rpx;
+  right: 4rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.header .arrow-right {
+  width: 50rpx;
+  height: 50rpx;
+}
